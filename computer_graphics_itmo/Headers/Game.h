@@ -20,7 +20,7 @@ public:
 	Game(const Game&) = delete;
 	Game& operator=(const Game&) = delete;
 
-	void Initialize();
+	void Init();
 	void Run();
 
 	ID3D11Device* GetDevice() const;

@@ -7,13 +7,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="GameInstance.cpp" />
     <ClCompile Include="MySuper3DApp.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="InputDevice.cpp" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="Shaders\MyVeryFirstShader.hlsl" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GameInstance.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="InputDevice.h" />
   </ItemGroup>
 </Project>

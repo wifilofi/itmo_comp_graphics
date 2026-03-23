@@ -16,12 +16,12 @@ public:
 
 private:
 	ID3D11InputLayout* Layout;
-	ID3D11VertexShader* VertexShader;
-	ID3DBlob* VertexShaderByteCode;
-	ID3D11PixelShader* PixelShader;
-	ID3DBlob* PixelShaderByteCode;
-	ID3D11Buffer* VertexBuffer;
-	ID3D11Buffer* IndexBuffer;
-	ID3D11RasterizerState* RasterState;
-	UINT IndexCount;
+	ID3D11VertexShader* vertexShader_;
+	ID3DBlob* vertexShaderByteCode_;
+	ID3D11PixelShader* pixelShader_;
+	ID3DBlob* pixelShaderByteCode_;
+	ID3D11Buffer* vertexBuffer_;
+	ID3D11Buffer* indexBuffer_;
+	ID3D11RasterizerState* rasterState_;
+	UINT indexCount_;
 };

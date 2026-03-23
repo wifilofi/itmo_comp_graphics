@@ -18,7 +18,7 @@ public:
 	int GetClientHeight() const;
 
 private:
-	static LRESULT CALLBACK WndProc(HWND windowHandle, UINT message, WPARAM wParam, LPARAM lParam);
+	static LRESULT CALLBACK WndProc(HWND WindowHandle, UINT Message, WPARAM WParam, LPARAM LParam);
 
 	HWND WindowHandle;
 	HINSTANCE InstanceHandle;
